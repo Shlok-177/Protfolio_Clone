@@ -99,7 +99,7 @@
 
         <!-- About text div start  -->
         <div class="about-text">
-            <h1>
+            <h1 class="section-title">
                 <span>01. </span> About me
                 <span class="hl"></span>
             </h1>
@@ -143,7 +143,36 @@
     </section>
     <!-- About section End   -->
 
+    <!-- Skills Section Start -->
 
+    <section id="skills-section">
+        <div class="skills-class">
+            <h1 class="section-title">
+                <span>02. </span> Skills
+                <span class="hl"></span>
+            </h1>
+
+            <div class="skills-container">
+                <div class="skill-item-container font-mono">
+                    <button id="google" class="skill-item" onclick="updateWork(this.id)">Google</button>
+                    <button id="microsoft" class="skill-item" onclick="updateWork(this.id)">Mircosoft</button>
+                    <button id="fb" class="skill-item" onclick="updateWork(this.id)">Facebook</button>
+                    <button id="netflix" class="skill-item" onclick="updateWork(this.id)">Netflix</button>
+                </div>
+                <div class="skills-description">
+                    <div class="job-role" id="role">
+                        Sr. Software Engineer
+                    </div>
+                    <div class="job-timeline" id="timeline">July 2018 - Present</div>
+                    <div class="job-description" id="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quas quasi repudiandae minima voluptate veritatis ad quidem consequatur perspiciatis perferendis. </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section End -->
+    <script src="data.js"></script>
 </body>
 
 </html>
