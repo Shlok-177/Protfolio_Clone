@@ -356,13 +356,15 @@
   z-index: 11;
   margin: 25px 0px;
 }
-.project-des > ul {
+.tools-tech {
   display: flex;
   list-style: none;
+
 }
-.project-des > ul > li {
-  padding: 0px 10px;
+.tools-tech > li {
+  /* padding: 0px 10px; */
   /* font-size: 12px; */
+  padding: 0px 5px;
   font-size: 14px;
   font-family: monospace;
   color: #8892b0;
@@ -384,4 +386,141 @@
   align-items: flex-start;
   /* padding-left: 150px; */
   left: 50px;
+}
+
+
+
+
+/*Other Project Section CSS */
+
+#other-project{
+  margin-top: 200px;
+}
+
+.main-hadding{
+  color: #ccd6f6;
+  text-align: center;
+}
+.secondary-hadding{
+  color: #64ffda;
+  font-family: monospace;
+  text-align: center;
+  margin: 20px 0px 50px 0px;
+}
+
+.other-project-container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.other-project-card{
+  background-color: #112240;
+  width: 280px;
+  /* height: 280px; */
+  min-height: 280px;
+  padding: 20px;
+  margin: 10px;
+}
+.other-project-card:hover .other-project-hadding{
+  color: #64ffda;
+}
+.other-project-card:hover{
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+}
+
+.other-project-share{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.folder{
+  background-color: transparent;
+}
+.folder > i{
+  font-size: 2rem;
+  color: #64ffda;
+  background-color: transparent;
+}
+.other-project-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.other-project-links > i{
+  font-size: 1.2rem;
+  color:#8892b0;
+  background-color: transparent;
+  padding: 0px 10px;
+  /* padding-top: 10px;  */
+}
+.other-project-links > i:hover{
+  color: #64ffda;
+}
+.other-project-hadding{
+  background-color: transparent;
+  color: #8892b0;
+  margin: 30px 0px;
+  font-size: 1.3rem;
+}
+
+.other-project-desc{
+  background-color: transparent;
+  color:#ccd6f6;
+  font-family: 'Roboto';
+  line-height: 1.4;
+}
+
+.other-project-tech{
+  margin: 50px 0px 20px 0px;
+
+  padding: 0px !important;
+  background-color: transparent;
+}
+.other-project-tech > li{
+  background-color: transparent;
+}
+.other-prpject-btn{
+  width: max-content;
+  margin: 100px auto 180px;
+}
+
+
+/* Get in section CSS start  */
+.get-in-touch-secondary-hadding{
+  color: #64ffda;
+  font-family: monospace;
+  text-align: center;
+}
+.get-in-touch-main-hadding{
+  color: #ccd6f6;
+  text-align: center;
+  font-size: 4rem;
+  margin: 20px 0px;
+}
+.get-in-touch-desc{
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  color: #8892b0;
+  font-size: 1.2rem;
+}
+
+.get-in-touch-btn{
+  width: max-content;
+  margin: 80px auto;
+}
+
+footer{
+  width: max-content;
+  font-size: 1rem;
+  color: #8892b0;
+  font-family: monospace;
+  margin: 250px auto 20px;
 }
