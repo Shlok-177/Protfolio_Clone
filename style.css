@@ -138,6 +138,7 @@
   left: 60px;
   height: 300px;
   justify-content: space-between;
+  z-index: 5;
 }
 .social-icon > a > i {
   font-size: 20px;
@@ -168,6 +169,7 @@
   right: 60px;
   height: 300px;
   justify-content: space-between;
+  z-index: 5;
 }
 .email {
   writing-mode: vertical-lr;
@@ -497,6 +499,9 @@
 
 
 /* Get in section CSS start  */
+.get-in-touch{
+  z-index: -5;
+}
 .get-in-touch-secondary-hadding{
   color: #64ffda;
   font-family: monospace;
