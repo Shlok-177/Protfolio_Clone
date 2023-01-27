@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -95,7 +96,7 @@
     <!-- Hero Section End  -->
 
     <!-- About section start   -->
-    <section id="about">
+    <section id="about" data-aos="fade-up"   data-aos-delay="50"  data-aos-once="true">
         <!-- About text div start  -->
         <div class="about-text">
             <h1 class="section-title">
@@ -140,7 +141,7 @@
         <!-- About Img div start  -->
         <div class="about-img blur">
             <img src="https://brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif" alt=""
-                width="300px">
+                width="300px" data-aos="zoom-in" data-aos-delay="100">
         </div>
         <!-- About Img div end  -->
     </section>
@@ -148,7 +149,7 @@
 
     <!-- Skills Section Start -->
 
-    <section id="skills-section">
+    <section id="skills-section" data-aos="fade-up" data-aos-once="true">
         <div class="skills-class">
             <h1 class="section-title">
                 <span>02. </span> Skills
@@ -188,7 +189,7 @@
         <div id="all-project">
             <div class="project-card">
                 <div class="project-img">
-                    <img src="./img/img.png" alt="" width="550px" height="350px" >
+                    <img src="./img/img.png" alt="" width="550px" height="350px"  data-aos="fade-right">
                 </div>
                 <div class="project-des">
                     <span>Featured Project</span>
@@ -236,12 +237,12 @@
                     </div>
                 </div>
                 <div class="project-img">
-                    <img src="./img/img.png" alt="" width="550px" height="350px">
+                    <img src="./img/img.png" alt="" width="550px" height="350px"  data-aos="fade-left">
                 </div>
             </div>
             <div class="project-card">
                 <div class="project-img">
-                    <img src="./img/img.png" alt="" width="550px" height="350px">
+                    <img src="./img/img.png" alt="" width="550px" height="350px"  data-aos="fade-right" >
                 </div>
                 <div class="project-des">
                     <span>Featured Project</span>
@@ -289,7 +290,7 @@
                     </div>
                 </div>
                 <div class="project-img" >
-                    <img src="./img/img.png" alt="" width="550px" height="350px">
+                    <img src="./img/img.png" alt="" width="550px" height="350px"  data-aos="fade-left">
                 </div>
             </div>
         </div>
@@ -305,7 +306,32 @@
         </div>
 
         <div class="other-project-container">
-            <div class="other-project-card">
+            <div class="other-project-card"   data-aos="zoom-in">
+                <div class="other-project-share">
+                    <div class="folder">
+                        <i class="far fa-folder"></i>
+                    </div>
+                    <div class="other-project-links">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+                <h3 class="other-project-hadding font-lato">
+                    Integrating Algolia Search
+                    with WordPress Multisite
+                </h3>
+                <div class="other-project-desc">
+                    Building a custom multisite compatible
+                    WordPress plugin to build global search
+                    with Algolia
+
+                </div>
+                <ul class="tools-tech other-project-tech">
+                    <li>VScode</li>
+                    <li>VScode</li>
+                </ul>
+            </div>
+            <div class="other-project-card"    data-aos="zoom-in">
                 <div class="other-project-share">
                     <div class="folder">
                         <i class="far fa-folder"></i>
@@ -329,7 +355,7 @@
                     <li>VScode</li>
                 </ul>
             </div>
-            <div class="other-project-card">
+            <div class="other-project-card"    data-aos="zoom-in">
                 <div class="other-project-share">
                     <div class="folder">
                         <i class="far fa-folder"></i>
@@ -353,7 +379,7 @@
                     <li>VScode</li>
                 </ul>
             </div>
-            <div class="other-project-card">
+            <div class="other-project-card"    data-aos="zoom-in">
                 <div class="other-project-share">
                     <div class="folder">
                         <i class="far fa-folder"></i>
@@ -377,7 +403,7 @@
                     <li>VScode</li>
                 </ul>
             </div>
-            <div class="other-project-card">
+            <div class="other-project-card"    data-aos="zoom-in">
                 <div class="other-project-share">
                     <div class="folder">
                         <i class="far fa-folder"></i>
@@ -401,31 +427,7 @@
                     <li>VScode</li>
                 </ul>
             </div>
-            <div class="other-project-card">
-                <div class="other-project-share">
-                    <div class="folder">
-                        <i class="far fa-folder"></i>
-                    </div>
-                    <div class="other-project-links">
-                        <i class="fa-brands fa-github"></i>
-                        <i class="far fa-share-square"></i>
-                    </div>
-                </div>
-                <h3 class="other-project-hadding font-lato">
-                    Integrating Algolia Search
-                    with WordPress Multisite
-                </h3>
-                <div class="other-project-desc">
-                    Building a custom multisite compatible
-                    WordPress plugin to build global search
-                    with Algolia
-                </div>
-                <ul class="tools-tech other-project-tech">
-                    <li>VScode</li>
-                    <li>VScode</li>
-                </ul>
-            </div>
-            <div class="other-project-card">
+            <div class="other-project-card"    data-aos="zoom-in">
                 <div class="other-project-share">
                     <div class="folder">
                         <i class="far fa-folder"></i>
@@ -458,7 +460,7 @@
 
 
  <!-- Get in Touch Section Start  -->
- <section>
+ <section    data-aos="zoom-in">
     <div class="get-in-touch">
         <h3 class="get-in-touch-secondary-hadding">04. What's Next?</h3>
         <h1 class="get-in-touch-main-hadding font-lato">Get In Touch</h1>
@@ -479,6 +481,7 @@
 
     <!-- Skills Section End -->
     <script src="data.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
